@@ -36,7 +36,7 @@ if [ -d "$DIR" ]; then
     git config --global user.name ArtisticWorld && git config --global user.email patelparth0937@gmail.com
     git add . && git commit -m "Art Entry: $(date)"
     echo $'\n'"git status: $(git status)"$'\n';
-    git push "https://ArtisticWorld:$GH_PAT@github.com/ArtisticWorld.github.io.git" HEAD:master
+    git push "https://ArtisticWorld:$GH_PAT@github.com/ArtisticWorld/ArtisticWorld.github.io.git" HEAD:master
 else
     echo "$DIR doesn\'t exist!";
 fi
