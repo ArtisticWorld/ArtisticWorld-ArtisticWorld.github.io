@@ -1,3 +1,9 @@
+# videos
+# _______________________________
+# append youtube video id in the list to post it to website
+video_arts:
+  - id: lkblPY3n7y0
+
 # site settings
 # ______________________________
 # name of the website
